@@ -81,6 +81,14 @@ header img {
 	text-shadow: 1px 1px 1px black;
 
 }
+.menu-pro{
+	background: #F69523;
+	text-shadow: 1px 1px 1px black;
+}
+.menu-hom{
+	background: #4699D3;
+	text-shadow: 1px 1px 1px black;
+}
 
 
 #submenu-acordeao .item {
@@ -114,21 +122,17 @@ header img {
 #submenu-acordeao div:hover {
     height: 180px;
 }
+.horus-comprimento #submenu-acordeao div:hover {
+	height: 380px;
+} 
 #submenu-acordeao div:hover a {
     border-bottom: 1px solid #ccc;
     font-weight: bold;
 
 }
 
-.menu-hom{
-	background: rgb(247,149,38);
-	text-shadow: 1px 1px 1px #c93e36;
-}
 
-.menu-pro{
-	background: #719bce url(../images/bg-producao.jpg) repeat-x;
-	text-shadow: 1px 1px 1px #3d7bc4;
-}
+
 
 .lista span {
 	position:absolute;
@@ -169,3 +173,69 @@ header img {
 } 
 
 
+/* Menu Vertical Sanfona
+----------------------------------------------- */
+.verticalsanfona ul {
+margin: 0;
+padding: 0;
+list-style:none;
+width: auto;
+}
+.verticalsanfona ul li {
+display:block;
+overflow: hidden;
+margin: 0;
+padding: 0;
+list-style:none;
+height:40px;
+width: auto;
+background-color:#f0f0f0;
+transition: height 0.3s ease-in-out;
+-moz-transition: height 0.3s ease-in-out;
+-webkit-transition: height 0.3s ease-in-out;
+-o-transition: height 0.3s ease-in-out;
+}
+
+.verticalsanfona ul li h3 {
+display:block;
+margin: 0;
+padding:10px;
+padding-left:20px;
+height:19px;
+border-top:#f0f0f0 1px solid;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+text-transform:capitalize;
+color: #000;
+background: #cccccc url(ENDEREÇO-DA-SUA-IMAGEM) repeat;
+text-align: left;
+font-size:16px;
+}
+.verticalsanfona ul li h3 a{
+color: #000;
+}
+
+.verticalsanfona ul li h3 a:hover{
+color: #fff;
+}
+
+.verticalsanfona ul li div {
+margin:0;
+overflow: auto;
+padding:10px;
+padding-left:20px;
+height:220px;
+}
+
+.verticalsanfona ul li:hover {
+height: 280px;
+}
+
+.verticalsanfona:hover ul li:hover h3 {
+color:#fff;
+background: #000000 url(ENDEREÇO-DA-SUA-IMAGEM) repeat;;
+}
+
+.verticalsanfona ul li h3:hover {
+cursor:pointer;
+}
